@@ -1,5 +1,9 @@
 # Video App
 
+Deployed on: [![Netlify Status](https://api.netlify.com/api/v1/badges/f048c444-ae9c-4e50-89c2-ad4bb3b1c9f0/deploy-status)](https://app.netlify.com/sites/gifted-nightingale-1ff2e9/deploys)
+
+Check it out: https://rizzle.snimesh.com
+
 ## Problem Statement:
 
 The task is to design and develop a video playing web application using React.js
