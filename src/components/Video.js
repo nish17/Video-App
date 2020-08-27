@@ -5,8 +5,8 @@ import Videolist from './VideoList';
 
 export default function Video() {
   return (
-    <div>
-    <Videolist VideosArray={data} />
+    <div className='main-app' >
+      <Videolist VideosArray={data} />
     </div>
   )
 }

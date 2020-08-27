@@ -22,6 +22,11 @@
   color: #61dafb;
 }
 
+.main-app {
+  width: 100vw;
+  height: 100vh;
+}
+
 .video-view-container {
   display: flex;
   overflow: auto;
@@ -29,17 +34,31 @@
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
-  width: auto;
+  /* width: 100vw; */
 }
 
 .video-view {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-flow: row nowrap;
   scroll-snap-align: start;
+  width: 100%;
+  height: auto;
 }
 
 .video-player {
   height: 100vh;
-  width: auto;
+  min-width: 100%;
+}
+
+.video-info-container {
+  display: block;
+  scroll-snap-type: x mandatory;
+  height: 100vh;
+  min-width: 100vw;
+}
+
+.video-info {
+  scroll-snap-align: start;
 }
